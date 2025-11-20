@@ -1,43 +1,11 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:8.6.1"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24"
-    }
+plugins {
+    id 'com.android.application' version '8.6.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.24' apply false
 }
 
-// Make repositories available to all modules
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+// Root project build file - keep minimal for CI compatibility.
+// Repositories are managed via settings.gradle (dependencyResolutionManagement).
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
 }
-
-import org.gradle.language.jvm.tasks.ProcessResources
-
-// Globally prevent resource processing tasks from trying to change file modes on restricted FS
-subprojects { subproj ->
-    // Apply to all ProcessResources tasks (covers processDebugJavaRes/processReleaseJavaRes)
-    tasks.withType(ProcessResources).configureEach {
-        // Reproducible without touching permissions
-        reproducibleFileOrder = true
-        preserveTimestamps = true
-        // Do not copy META-INF to avoid chmod on directories
-        exclude("META-INF/**")
-
-        // If task is Copy-derived, ensure no mode is set
-        doFirst {
-            if (this instanceof Copy) {
-                this.fileMode = null
-                this.dirMode = null
-            }
-        }
-    }
-}
-
-// Include shared custom tasks (e.g., copyDebugApk)
-apply from: "tasks.gradle"

@@ -20,6 +20,44 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        resources {
+            // Stable packaging in CI
+        }
+    }
+
+    // This module has no Java resources; avoid copying META-INF into javaRes
+    sourceSets {
+        getByName("main") {
+            resources.setSrcDirs([]) // empty to prevent processDebugJavaRes work
+        }
+    }
+}
+
+import org.gradle.language.jvm.tasks.ProcessResources
+
+// Keep java resources processing from modifying file modes and exclude META-INF
+tasks.withType(ProcessResources).configureEach {
+    reproducibleFileOrder = true
+    preserveTimestamps = true
+    exclude("META-INF/**")
+    eachFile { /* no-op; keep permissions */ }
+}
+
+tasks.matching { it.name == "processDebugJavaRes" || it.name == "processReleaseJavaRes" }.configureEach {
+    doFirst {
+        if (this instanceof Copy) {
+            this.fileMode = null
+            this.dirMode = null
+        }
+    }
+    if (this instanceof Copy) {
+        (this as Copy).exclude("META-INF/**")
+    }
 }
 
 dependencies {

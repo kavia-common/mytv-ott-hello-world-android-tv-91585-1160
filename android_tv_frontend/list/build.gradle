@@ -20,6 +20,51 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
+
+    // Mitigate CI permission issues when Gradle tries to enforce file modes in javaRes tasks
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        resources {
+            // Keep normalization simple; no excludes required
+        }
+    }
+
+    // This module has no Java resources; avoid copying META-INF from compiled classes to javaRes
+    sourceSets {
+        getByName("main") {
+            resources.setSrcDirs([]) // empty to prevent processDebugJavaRes work
+        }
+    }
+}
+
+import org.gradle.language.jvm.tasks.ProcessResources
+
+// Ensure java resources processing doesn't attempt to change file modes on META-INF
+tasks.withType(ProcessResources).configureEach {
+    // Keep outputs reproducible without touching file permissions
+    reproducibleFileOrder = true
+    preserveTimestamps = true
+    // Exclude META-INF to avoid chmod attempts on directories in restricted CI
+    exclude("META-INF/**")
+    // Do not normalize or force permissions (avoid chmod-like behavior in restricted FS)
+    eachFile { /* no-op; keep default permissions */ }
+}
+
+// As a safety net, disable file permission normalization on the specific javaRes tasks
+tasks.matching { it.name == "processDebugJavaRes" || it.name == "processReleaseJavaRes" }.configureEach {
+    // Avoid trying to set file mode; treat outputs as plain copies
+    doFirst {
+        if (this instanceof Copy) {
+            this.fileMode = null
+            this.dirMode = null
+        }
+    }
+    // Also ensure META-INF is not copied at all
+    if (this instanceof Copy) {
+        (this as Copy).exclude("META-INF/**")
+    }
 }
 
 dependencies {

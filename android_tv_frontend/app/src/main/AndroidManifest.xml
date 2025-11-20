@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TV apps must not require a touchscreen; make it explicitly optional -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <!-- Allow D-pad/keyboard style navigation -->
+    <uses-feature android:name="android.hardware.faketouch" android:required="false" />
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+
     <application
         android:label="Hello TV"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:banner="@drawable/banner_tv"
+        android:theme="@style/Theme.TV.NordDark">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:banner="@drawable/banner_tv">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

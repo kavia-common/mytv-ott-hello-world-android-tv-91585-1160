@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml:2:13-83
-INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml:2:13-83
+ADDED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml:2:13-83
+INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml:2:13-83
 	package
-		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml
+		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml
 	xmlns:android
-		ADDED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml:2:23-81
+		ADDED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml:2:23-81
 uses-sdk
-INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml reason: use-sdk injection requested
-INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml
-INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml
+INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml reason: use-sdk injection requested
+INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml
+INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml
 	android:targetSdkVersion
-		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml
+		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml
 	android:minSdkVersion
-		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-319/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9516253182121529593.xml
+		INJECTED from /home/kavia/workspace/code-generation/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest5762060042516139372.xml

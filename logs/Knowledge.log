@@ -6375,3 +6375,570 @@
 2025-11-25 18:15:19,233 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 269, Duration: 0ms
 2025-11-25 18:15:19,410 - Knowledge - INFO - Saving knowledge to Redis...
 2025-11-25 18:15:19,636 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-11-25 18:17:26,905 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-11-25 18:17:27,241 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-11-25 18:17:27,463 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-11-25 18:17:27,673 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-11-25 18:17:28,716 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-11-25 18:17:28,905 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-11-25 18:17:29,084 - Knowledge - INFO - load persisted knowledge: begin
+2025-11-25 18:17:30,684 - Knowledge - INFO - Persisted knowledge files in /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/.knowledge have been renamed to use .json
+2025-11-25 18:17:30,880 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:31,038 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:31,227 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/themes.xml
+2025-11-25 18:17:31,437 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:31,594 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:31,812 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/api/ApiService.kt
+2025-11-25 18:17:31,978 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:32,179 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:32,338 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/bg_unfocused_state.xml
+2025-11-25 18:17:32,510 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:32,683 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:32,860 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_5.xml
+2025-11-25 18:17:33,027 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:33,226 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:33,428 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build.gradle
+2025-11-25 18:17:33,643 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:33,839 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:34,003 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/tv_focus_ripple.xml
+2025-11-25 18:17:34,197 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:34,361 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:34,576 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build.gradle
+2025-11-25 18:17:34,782 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:34,937 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:35,147 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/src/main/kotlin/org/example/utilities/StringUtils.kt
+2025-11-25 18:17:35,354 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:35,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:35,779 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/missing_theme_resources.xml
+2025-11-25 18:17:36,001 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:36,197 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:36,390 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/home/ImageCacheUtils.kt
+2025-11-25 18:17:36,556 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:36,755 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:36,936 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/more_nord_colors.xml
+2025-11-25 18:17:37,134 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:37,298 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:37,542 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+2025-11-25 18:17:37,699 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:37,871 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:38,076 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug.xml
+2025-11-25 18:17:38,296 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:38,515 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:38,703 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint-cache/lintAnalyzeDebug/maven.google/master-index.xml
+2025-11-25 18:17:38,926 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:39,123 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:39,304 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/build/reports/problems/problems-report.html
+2025-11-25 18:17:39,501 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:39,711 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:39,953 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug.xml
+2025-11-25 18:17:40,143 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:40,329 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:40,526 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/release/packageReleaseResources/merger.xml
+2025-11-25 18:17:40,741 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:40,938 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:41,132 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/tag_age_rating.xml
+2025-11-25 18:17:41,353 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:41,525 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:41,708 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/install.sh
+2025-11-25 18:17:41,910 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:42,088 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:42,298 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint-cache/lintAnalyzeDebug/maven.google/master-index.xml
+2025-11-25 18:17:42,533 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:42,731 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:42,936 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/SplashActivity.kt
+2025-11-25 18:17:43,125 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:43,293 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:43,490 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug.xml
+2025-11-25 18:17:43,688 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:43,850 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:44,014 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+2025-11-25 18:17:44,202 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:44,375 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:44,578 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug.xml
+2025-11-25 18:17:44,801 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:44,964 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:45,177 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+2025-11-25 18:17:45,387 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:45,595 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:45,799 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+2025-11-25 18:17:46,004 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:46,231 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:46,468 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/gradient_horizontal_overlay.xml
+2025-11-25 18:17:46,673 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:46,890 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:47,083 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_replay.xml
+2025-11-25 18:17:47,273 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:47,476 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:47,684 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/bg_focus_state.xml
+2025-11-25 18:17:47,894 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:48,106 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:48,250 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_audio_subtitle.xml
+2025-11-25 18:17:48,450 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:48,673 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:48,878 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/strings.xml
+2025-11-25 18:17:49,082 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:49,273 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:49,488 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebug/debug-artifact-libraries.xml
+2025-11-25 18:17:49,683 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:49,857 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:50,046 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug-artifact-libraries.xml
+2025-11-25 18:17:50,243 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:50,444 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:50,631 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/sub_net.xml
+2025-11-25 18:17:50,796 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:50,963 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:51,176 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebug/debug-artifact-libraries.xml
+2025-11-25 18:17:51,379 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:51,608 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:51,845 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug-artifact-libraries.xml
+2025-11-25 18:17:52,058 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:52,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:52,451 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug-artifact-libraries.xml
+2025-11-25 18:17:52,652 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:52,859 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:53,039 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/colors.xml
+2025-11-25 18:17:53,212 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:53,496 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:53,702 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug-artifact-libraries.xml
+2025-11-25 18:17:53,888 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:54,044 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:54,218 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_1.xml
+2025-11-25 18:17:54,385 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:54,591 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:54,797 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_block.xml
+2025-11-25 18:17:55,010 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:55,172 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:55,364 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/sub_prime.xml
+2025-11-25 18:17:55,608 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:55,818 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:56,059 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+2025-11-25 18:17:56,237 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:56,447 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:56,658 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+2025-11-25 18:17:56,834 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:56,987 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:57,234 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/activity_content_info.xml
+2025-11-25 18:17:57,466 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:57,692 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:57,901 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/dimens.xml
+2025-11-25 18:17:58,093 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:58,320 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:58,526 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug.xml
+2025-11-25 18:17:58,730 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:58,918 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:59,138 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/CategoryRepository.kt
+2025-11-25 18:17:59,383 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:17:59,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:17:59,722 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+2025-11-25 18:17:59,904 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:00,113 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:00,295 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+2025-11-25 18:18:00,499 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:00,727 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:00,939 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_model/debug/generateDebugLintModel/debug.xml
+2025-11-25 18:18:01,128 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:01,339 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:01,545 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/ids.xml
+2025-11-25 18:18:01,703 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:01,904 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:02,129 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug.xml
+2025-11-25 18:18:02,363 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:02,531 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:02,761 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/view_rail.xml
+2025-11-25 18:18:02,964 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:03,150 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:03,331 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/AndroidManifest.xml
+2025-11-25 18:18:03,540 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:03,703 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:03,918 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/settings.gradle.kts
+2025-11-25 18:18:04,102 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:04,323 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:04,515 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug-artifact-dependencies.xml
+2025-11-25 18:18:04,699 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:04,919 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:05,097 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/packageDebugAssets/merger.xml
+2025-11-25 18:18:05,288 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:05,528 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:05,733 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/consumer-rules.pro
+2025-11-25 18:18:05,925 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:06,136 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:06,320 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_bell.xml
+2025-11-25 18:18:06,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:06,694 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:06,937 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebug/debug-artifact-dependencies.xml
+2025-11-25 18:18:07,156 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:07,348 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:07,563 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugUnitTest/module.xml
+2025-11-25 18:18:07,744 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:07,906 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:08,081 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/settings.gradle
+2025-11-25 18:18:08,262 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:08,455 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:08,685 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug-artifact-dependencies.xml
+2025-11-25 18:18:08,869 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:09,077 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:09,247 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/consumer-rules.pro
+2025-11-25 18:18:09,478 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:09,674 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:09,877 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebug/debug-artifact-dependencies.xml
+2025-11-25 18:18:10,043 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:10,247 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:10,416 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugUnitTest/module.xml
+2025-11-25 18:18:10,588 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:10,778 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:10,965 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/project_root_hint.xml
+2025-11-25 18:18:11,140 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:11,350 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:11,550 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/packageDebugAssets/merger.xml
+2025-11-25 18:18:11,723 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:11,886 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:12,076 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/module.xml
+2025-11-25 18:18:12,246 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:12,444 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:12,646 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_record.xml
+2025-11-25 18:18:12,851 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:13,027 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:13,211 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebug/module.xml
+2025-11-25 18:18:13,447 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:13,657 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:13,834 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug-artifact-dependencies.xml
+2025-11-25 18:18:14,038 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:14,238 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:14,442 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/ic_launcher_background.xml
+2025-11-25 18:18:14,662 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:14,902 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:15,097 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/module.xml
+2025-11-25 18:18:15,303 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:15,515 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:15,691 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebug/module.xml
+2025-11-25 18:18:15,902 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:16,119 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:16,317 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug-artifact-dependencies.xml
+2025-11-25 18:18:16,507 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:16,677 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:16,863 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/nord_additional_colors.xml
+2025-11-25 18:18:17,078 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:17,284 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:17,492 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/TVApp.kt
+2025-11-25 18:18:17,683 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:17,938 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:18,139 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+2025-11-25 18:18:18,291 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:18,518 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:18,695 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/ANDROID_PROJECT_ROOT_README.md
+2025-11-25 18:18:18,890 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:19,071 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:19,266 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+2025-11-25 18:18:19,446 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:19,623 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:19,846 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/sub_hbo.xml
+2025-11-25 18:18:20,053 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:20,243 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:20,453 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/README_PROJECT_ROOT.md
+2025-11-25 18:18:20,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:20,846 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:21,067 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/content/ContentInfoActivity.kt
+2025-11-25 18:18:21,230 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:21,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:21,637 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/login/LoginActivity.kt
+2025-11-25 18:18:21,830 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:22,015 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:22,210 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/card_bg.xml
+2025-11-25 18:18:22,452 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:22,621 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:22,798 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/comm_and_push.sh
+2025-11-25 18:18:22,968 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:23,137 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:23,342 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/home/HomeActivity.kt
+2025-11-25 18:18:23,585 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:23,787 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:23,944 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_3.xml
+2025-11-25 18:18:24,144 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:24,333 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:24,539 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/sub_disney.xml
+2025-11-25 18:18:24,751 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:24,925 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:25,150 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+2025-11-25 18:18:25,363 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:25,540 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:25,756 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_6.xml
+2025-11-25 18:18:25,942 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:26,106 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:26,304 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+2025-11-25 18:18:26,495 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:26,711 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:26,899 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/text_appearances.xml
+2025-11-25 18:18:27,117 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:27,310 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:27,507 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/theme_expressive_loader_overlay.xml
+2025-11-25 18:18:27,709 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:27,901 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:28,065 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/mergeDebugShaders/merger.xml
+2025-11-25 18:18:28,240 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:28,465 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:28,672 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/build.sh
+2025-11-25 18:18:28,872 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:29,034 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:29,222 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/ANDROID_PROJECT_ROOT.md
+2025-11-25 18:18:29,435 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:29,611 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:29,803 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/mergeDebugShaders/merger.xml
+2025-11-25 18:18:29,963 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:30,118 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:30,353 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/reset_branch.sh
+2025-11-25 18:18:30,548 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:30,756 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:30,934 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/font/reddit_sans.xml
+2025-11-25 18:18:31,164 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:31,340 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:31,525 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/src/main/kotlin/org/example/utilities/JoinUtils.kt
+2025-11-25 18:18:31,713 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:31,918 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:32,150 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug-artifact-dependencies.xml
+2025-11-25 18:18:32,322 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:32,514 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:32,713 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_model/debug/generateDebugLintModel/debug-artifact-dependencies.xml
+2025-11-25 18:18:32,907 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:33,109 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:33,315 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/module.xml
+2025-11-25 18:18:33,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:33,680 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:33,900 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/reports/lint-results-debug.xml
+2025-11-25 18:18:34,155 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:34,330 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:34,535 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/activity_main.xml
+2025-11-25 18:18:34,750 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:34,926 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:35,124 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/reports/lint-results-debug.xml
+2025-11-25 18:18:35,333 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:35,531 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:35,707 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/module.xml
+2025-11-25 18:18:35,890 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:36,093 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:36,266 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug-artifact-dependencies.xml
+2025-11-25 18:18:36,466 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:36,665 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:36,871 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_model/debug/generateDebugLintModel/module.xml
+2025-11-25 18:18:37,092 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:37,281 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:37,504 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/api/NetworkConfig.kt
+2025-11-25 18:18:37,694 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:37,868 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:38,096 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/build.gradle
+2025-11-25 18:18:38,257 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:38,422 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:38,647 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/src/main/kotlin/org/example/utilities/SplitUtils.kt
+2025-11-25 18:18:38,796 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:39,005 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:39,171 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/MainActivity.kt
+2025-11-25 18:18:39,381 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:39,586 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:39,771 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/build.gradle
+2025-11-25 18:18:39,947 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:40,167 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:40,336 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/build.gradle.kts
+2025-11-25 18:18:40,490 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:40,696 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:40,882 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/color/loader_blue_color.xml
+2025-11-25 18:18:41,058 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:41,293 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:41,481 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/README.md
+2025-11-25 18:18:41,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:41,837 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:42,030 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/xml/leanback_launcher.xml
+2025-11-25 18:18:42,226 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:42,411 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:42,599 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/activity_home.xml
+2025-11-25 18:18:42,787 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:42,991 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:43,194 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug-artifact-libraries.xml
+2025-11-25 18:18:43,394 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:43,562 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:43,735 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug-artifact-libraries.xml
+2025-11-25 18:18:43,953 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:44,135 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:44,315 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/reports/lint-results-debug.html
+2025-11-25 18:18:44,487 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:44,653 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:44,868 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_2.xml
+2025-11-25 18:18:45,111 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:45,319 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:45,486 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/activity_login.xml
+2025-11-25 18:18:45,683 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:45,876 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:46,030 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug-artifact-libraries.xml
+2025-11-25 18:18:46,235 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:46,408 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:46,618 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/reports/lint-results-debug.html
+2025-11-25 18:18:46,827 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:47,055 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:47,240 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/ui/home/HomeViewModel.kt
+2025-11-25 18:18:47,434 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:47,589 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:47,787 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug-artifact-libraries.xml
+2025-11-25 18:18:47,980 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:48,157 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:48,353 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/move_apk.sh
+2025-11-25 18:18:48,530 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:48,718 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:48,877 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/missing_dimens.xml
+2025-11-25 18:18:49,059 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:49,298 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:49,505 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/api/dto/Mappers.kt
+2025-11-25 18:18:49,720 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:49,896 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:50,072 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_launcher_foreground.xml
+2025-11-25 18:18:50,271 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:50,460 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:50,705 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/annotation_processor_list/releaseUnitTest/javaPreCompileReleaseUnitTest/annotationProcessors.json
+2025-11-25 18:18:50,883 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:51,052 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:51,277 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json
+2025-11-25 18:18:51,516 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:51,711 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:51,913 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/api/dto/ShowDto.kt
+2025-11-25 18:18:52,127 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:52,313 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:52,471 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/annotation_processor_list/releaseUnitTest/javaPreCompileReleaseUnitTest/annotationProcessors.json
+2025-11-25 18:18:52,692 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:52,882 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:53,059 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/proguard-rules.pro
+2025-11-25 18:18:53,250 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:53,448 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:53,630 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/java/com/example/tv/data/api/ApiModels.kt
+2025-11-25 18:18:53,855 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:54,057 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:54,259 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json
+2025-11-25 18:18:54,482 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:54,663 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:54,919 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint-cache/lintAnalyzeDebug/maven.google/androidx/annotation/group-index.xml
+2025-11-25 18:18:55,116 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:55,342 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:55,545 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint-cache/lintAnalyzeDebug/maven.google/androidx/annotation/group-index.xml
+2025-11-25 18:18:55,739 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:55,945 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:56,111 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/view_action_button.xml
+2025-11-25 18:18:56,291 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:56,454 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:56,658 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/tag_status.xml
+2025-11-25 18:18:56,873 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:57,058 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:57,284 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/src/main/kotlin/org/example/list/LinkedList.kt
+2025-11-25 18:18:57,451 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:57,608 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:57,777 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/tasks.gradle
+2025-11-25 18:18:57,928 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:58,130 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:58,317 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/banner_tv.xml
+2025-11-25 18:18:58,525 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:58,673 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:58,835 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/view_thumb_card.xml
+2025-11-25 18:18:59,077 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:59,250 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:59,451 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug-artifact-dependencies.xml
+2025-11-25 18:18:59,625 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:18:59,812 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:18:59,997 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/module.xml
+2025-11-25 18:19:00,229 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:00,432 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:00,637 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug.xml
+2025-11-25 18:19:00,836 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:01,046 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:01,258 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug-artifact-dependencies.xml
+2025-11-25 18:19:01,513 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:01,655 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:01,847 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/module.xml
+2025-11-25 18:19:02,043 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:02,238 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:02,444 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_favorite.xml
+2025-11-25 18:19:02,623 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:02,796 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:02,987 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugUnitTest/debug.xml
+2025-11-25 18:19:03,212 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:03,443 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:03,616 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/module.xml
+2025-11-25 18:19:03,806 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:04,001 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:04,174 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/module.xml
+2025-11-25 18:19:04,339 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:04,536 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:04,700 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/bg_content_info_gradient.xml
+2025-11-25 18:19:04,869 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:05,032 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:05,221 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/unit_test_lint_model/debug/generateDebugUnitTestLintModel/debug-artifact-dependencies.xml
+2025-11-25 18:19:05,415 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:05,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:05,804 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebugAndroidTest/debug-artifact-dependencies.xml
+2025-11-25 18:19:06,000 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:06,202 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:06,393 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug.xml
+2025-11-25 18:19:06,611 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:06,801 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:07,047 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/incremental/lintAnalyzeDebug/debug.xml
+2025-11-25 18:19:07,289 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:07,486 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:07,735 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/pill_button_background.xml
+2025-11-25 18:19:07,935 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:08,105 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:08,294 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/incremental/lintAnalyzeDebug/debug.xml
+2025-11-25 18:19:08,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:08,720 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:08,911 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/values/missing_nord_colors.xml
+2025-11-25 18:19:09,092 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:09,318 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:09,552 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/lint_report_lint_model/debug/generateDebugLintReportModel/debug.xml
+2025-11-25 18:19:09,766 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:09,977 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:10,168 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug-artifact-libraries.xml
+2025-11-25 18:19:10,343 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:10,544 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:10,725 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/lint_model/debug/generateDebugLintModel/debug-artifact-libraries.xml
+2025-11-25 18:19:10,938 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:11,101 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:11,315 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/android_test_lint_model/debug/generateDebugAndroidTestLintModel/debug-artifact-libraries.xml
+2025-11-25 18:19:11,536 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:11,705 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:11,889 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/annotation_processor_list/debugUnitTest/javaPreCompileDebugUnitTest/annotationProcessors.json
+2025-11-25 18:19:12,094 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:12,323 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:12,481 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/ic_audio_subtitle_button.xml
+2025-11-25 18:19:12,652 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:12,840 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:13,005 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/thumb_4.xml
+2025-11-25 18:19:13,168 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:13,335 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:13,535 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/test/java/com/example/tv/ui/home/FocusMappingTest.kt
+2025-11-25 18:19:13,706 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:13,875 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:14,048 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/drawable/button_icon_background.xml
+2025-11-25 18:19:14,214 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:14,405 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:14,627 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+2025-11-25 18:19:14,808 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:15,012 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:15,225 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/list/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+2025-11-25 18:19:15,452 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:15,626 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:15,850 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+2025-11-25 18:19:16,034 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:16,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:16,439 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/app/src/main/res/layout/activity_splash.xml
+2025-11-25 18:19:16,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/mytv-ott-hello-world-android-tv-91585-1160.git:kavia-main
+2025-11-25 18:19:16,824 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f067eb05b50>
+2025-11-25 18:19:16,986 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimockapisolutions5451/874/b0845s8/mytv-ott-hello-world-android-tv-91585-1160/android_tv_frontend/utilities/build/intermediates/annotation_processor_list/debugUnitTest/javaPreCompileDebugUnitTest/annotationProcessors.json
+2025-11-25 18:19:17,143 - Knowledge - INFO - Loaded 181 files from persisted knowledge
+2025-11-25 18:19:17,313 - Knowledge - INFO - load persisted knowledge: end
+2025-11-25 18:19:17,542 - Knowledge - INFO - Redis support added with prefix knowledge:b0845s8:
+2025-11-25 18:19:17,841 - Knowledge - INFO - Starting knowledge initialization for ID: jWHewk-b0845s8
+2025-11-25 18:19:18,044 - Knowledge - INFO - 🔍 Checking Redis for build_id: b0845s8
+2025-11-25 18:19:18,204 - Knowledge - INFO - 🔍 Full session ID: jWHewk-b0845s8
+2025-11-25 18:19:18,405 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b0845s8:
+2025-11-25 18:19:18,615 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-11-25 18:19:18,820 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-11-25 18:19:18,994 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b0845s8
+2025-11-25 18:19:21,635 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-11-25 18:19:21,844 - Knowledge - INFO - ✅ Successfully loaded from Redis: 181 files
+2025-11-25 18:19:22,021 - Knowledge - INFO - ✅ Redis load complete: 181 files in 3.41s
+2025-11-25 18:19:22,228 - Knowledge - INFO - ⚡ Total Redis path: 3.41s (vs ~300s from disk)
+2025-11-25 18:19:22,430 - Knowledge - INFO - Saving knowledge to Redis...
+2025-11-25 18:19:22,656 - Knowledge - INFO - Knowledge saved to Redis successfully
